@@ -56,7 +56,7 @@ docker network create devboard-net
 
 The frontend and backend are *our* code, so we build an image for each. The
 database is not our code — it's the official Postgres image — so there's
-nothing to build for it.
+nothing to build for it. build the images
 
 ```bash
 docker build -t devboard-frontend ./frontend
